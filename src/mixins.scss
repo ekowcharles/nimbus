@@ -1,0 +1,17 @@
+@mixin big-device {
+  .area-wordy {
+    .scrollable {
+      height: 732px;
+      overflow-y: auto;
+    }
+  }
+}
+
+@mixin small-device {
+  .area-wordy {
+    .scrollable {
+      height: 432px;
+      overflow-y: auto;
+    }
+  }
+}

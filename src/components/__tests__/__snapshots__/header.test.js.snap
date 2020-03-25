@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders header with correct title 1`] = `
+<div
+  className="area-header"
+>
+  <img
+    alt="nimbus-icon"
+    className="nimbus-icon"
+    src="icon.png"
+  />
+   nimbus
+</div>
+`;

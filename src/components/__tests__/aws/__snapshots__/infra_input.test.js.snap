@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfraInput renders input collection area of view 1`] = `
+<Fragment>
+  <div
+    className="state"
+  >
+    <div
+      className="text"
+    >
+      <span
+        className="option-title"
+      >
+        Input
+      </span>
+      <div
+        className="radio-item"
+      >
+        <input
+          checked={false}
+          id="tfstate"
+          onChange={[Function]}
+          type="radio"
+          value="tfstate"
+        />
+         
+        <span>
+          Terraform State
+        </span>
+      </div>
+      <div
+        className="radio-item"
+      >
+        <input
+          checked={true}
+          id="nimbusSchema"
+          onChange={[Function]}
+          type="radio"
+          value="nimbusSchema"
+        />
+         
+        <span>
+          Nimbus Schema
+        </span>
+      </div>
+      <textarea
+        onChange={[Function]}
+        placeholder="Paste nimbus schema here"
+        value="{\\"accessanalyzer_analyzers\\":[{\\"account_id\\":\\"111111111111\\",\\"id\\":\\"id\\",\\"region\\":\\"us-east-1\\"}],\\"amis\\":[{\\"id\\":\\"ami-000b3a073fc20e415\\"}],\\"buckets\\":[{\\"name\\":\\"nimbusmain\\",\\"region\\":\\"us-east-1\\"}],\\"certificate_authorities\\":[{\\"account_id\\":\\"111111111111\\",\\"id\\":\\"arn\\",\\"region\\":\\"us-east-1\\",\\"status\\":\\"status\\"}],\\"certificates\\":[{\\"account_id\\":\\"111111111111\\",\\"id\\":\\"domain_name\\",\\"region\\":\\"us-east-1\\"}],\\"db_instances\\":[{\\"account_id\\":\\"111111111111\\",\\"availability_zone\\":\\"us-east-1c\\",\\"id\\":\\"terraform-20200121195838741200000001\\",\\"region\\":\\"us-east-1\\",\\"status\\":\\"available\\"}],\\"instances\\":[{\\"account_id\\":\\"111111111111\\",\\"arn\\":\\"arn:aws:ec2:us-east-1:111111111111:instance/i-07fed2eeedfa37fed\\",\\"availability_zone\\":\\"us-east-1c\\",\\"id\\":\\"i-07fed2eeedfa37fed\\",\\"instance_state\\":\\"running\\",\\"instance_type\\":\\"t2.micro\\",\\"region\\":\\"us-east-1\\",\\"subnet_id\\":\\"subnet-44444444444444444\\"},{\\"account_id\\":\\"111111111111\\",\\"arn\\":\\"arn:aws:ec2:us-east-1:111111111111:instance/i-88888888888888888\\",\\"availability_zone\\":\\"us-east-1c\\",\\"id\\":\\"i-88888888888888888\\",\\"instance_state\\":\\"running\\",\\"instance_type\\":\\"t2.micro\\",\\"region\\":\\"us-east-1\\",\\"subnet_id\\":\\"subnet-44444444444444444\\"},{\\"account_id\\":\\"111111111111\\",\\"arn\\":\\"arn:aws:ec2:us-east-1:111111111111:instance/i-66666666666666666\\",\\"availability_zone\\":\\"us-east-1d\\",\\"id\\":\\"i-66666666666666666\\",\\"instance_state\\":\\"running\\",\\"instance_type\\":\\"t2.micro\\",\\"region\\":\\"us-east-1\\",\\"subnet_id\\":\\"subnet-33333333333333333\\"}],\\"subnets\\":[{\\"account_id\\":\\"111111111111\\",\\"arn\\":\\"arn:aws:ec2:us-east-1:111111111111:subnet/subnet-44444444444444444\\",\\"availability_zone\\":\\"us-east-1c\\",\\"cidr\\":\\"10.0.1.0/24\\",\\"id\\":\\"subnet-44444444444444444\\",\\"region\\":\\"us-east-1\\",\\"vpc_id\\":\\"vpc-22222222222222222\\"},{\\"account_id\\":\\"111111111111\\",\\"arn\\":\\"arn:aws:ec2:us-east-1:111111111111:subnet/subnet-33333333333333333\\",\\"availability_zone\\":\\"us-east-1d\\",\\"cidr\\":\\"10.0.2.0/24\\",\\"id\\":\\"subnet-33333333333333333\\",\\"region\\":\\"us-east-1\\",\\"vpc_id\\":\\"vpc-22222222222222222\\"},{\\"account_id\\":\\"111111111111\\",\\"arn\\":\\"arn:aws:ec2:us-east-1:111111111111:subnet/subnet-55555555555555555\\",\\"availability_zone\\":\\"us-east-1e\\",\\"cidr\\":\\"10.0.3.0/24\\",\\"id\\":\\"subnet-55555555555555555\\",\\"region\\":\\"us-east-1\\",\\"vpc_id\\":\\"vpc-22222222222222222\\"}],\\"vpcs\\":[{\\"account_id\\":\\"111111111111\\",\\"arn\\":\\"arn:aws:ec2:us-east-1:111111111111:vpc/vpc-222222222222222222\\",\\"cidr\\":\\"10.0.0.0/16\\",\\"id\\":\\"vpc-22222222222222222\\",\\"region\\":\\"us-east-1\\"}]}"
+        wrap="false"
+      />
+    </div>
+    <AccountRegionOptions
+      accountId="111111111111"
+      region="us-east-1"
+    />
+  </div>
+  <div
+    className="input-dropdown"
+    onClick={[Function]}
+  >
+    <div
+      className="arrow up"
+    />
+  </div>
+</Fragment>
+`;

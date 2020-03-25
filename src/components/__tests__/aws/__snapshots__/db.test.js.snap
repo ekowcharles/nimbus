@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DB renders databases 1`] = `
+<Resource
+  hideName={false}
+  hideStatus={false}
+  image="db.png"
+  name="...000001"
+  state="available"
+  updateResourceAttributes={[Function]}
+/>
+`;

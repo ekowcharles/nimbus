@@ -1,0 +1,23 @@
+@media all and (max-width: 575px) {
+  @include small-device;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media all and (min-width: 576px) {
+  @include small-device;
+}
+
+// Medium devices (tablets, 768px and up)
+@media all and (min-width: 768px) {
+  @include big-device;
+}
+
+// Large devices (desktops, 992px and up)
+@media all and (min-width: 992px) {
+  @include big-device;
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media all and (min-width: 1200px) {
+  @include big-device;
+}

@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VpcList renders a list of vpcs 1`] = `
+<Fragment>
+  <Vpc
+    key="0"
+    menuOptions={
+      Object {
+        "az": Object {
+          "hideName": false,
+        },
+        "bucket": Object {
+          "hide": false,
+          "hideName": false,
+        },
+        "database": Object {
+          "hide": false,
+          "hideName": false,
+          "hideStatus": false,
+        },
+        "instance": Object {
+          "hide": false,
+          "hideStatus": false,
+          "hideType": false,
+        },
+        "subnet": Object {
+          "hideCidr": false,
+          "hideId": false,
+          "hideStatus": false,
+        },
+        "vpc": Object {
+          "hideCidr": false,
+          "hideIcon": false,
+          "hideId": false,
+          "hideStatus": false,
+        },
+      }
+    }
+    resource={
+      Object {
+        "accessanalyzer_analyzers": Array [
+          Object {
+            "account_id": "111111111111",
+            "id": "id",
+            "region": "us-east-1",
+          },
+        ],
+        "amis": Array [
+          Object {
+            "id": "ami-000b3a073fc20e415",
+          },
+        ],
+        "buckets": Array [
+          Object {
+            "name": "nimbusmain",
+            "region": "us-east-1",
+          },
+        ],
+        "certificate_authorities": Array [
+          Object {
+            "account_id": "111111111111",
+            "id": "arn",
+            "region": "us-east-1",
+            "status": "status",
+          },
+        ],
+        "certificates": Array [
+          Object {
+            "account_id": "111111111111",
+            "id": "domain_name",
+            "region": "us-east-1",
+          },
+        ],
+        "db_instances": Array [
+          Object {
+            "account_id": "111111111111",
+            "availability_zone": "us-east-1c",
+            "id": "terraform-20200121195838741200000001",
+            "region": "us-east-1",
+            "status": "available",
+          },
+        ],
+        "instances": Array [
+          Object {
+            "account_id": "111111111111",
+            "arn": "arn:aws:ec2:us-east-1:111111111111:instance/i-07fed2eeedfa37fed",
+            "availability_zone": "us-east-1c",
+            "id": "i-07fed2eeedfa37fed",
+            "instance_state": "running",
+            "instance_type": "t2.micro",
+            "region": "us-east-1",
+            "subnet_id": "subnet-44444444444444444",
+          },
+          Object {
+            "account_id": "111111111111",
+            "arn": "arn:aws:ec2:us-east-1:111111111111:instance/i-88888888888888888",
+            "availability_zone": "us-east-1c",
+            "id": "i-88888888888888888",
+            "instance_state": "running",
+            "instance_type": "t2.micro",
+            "region": "us-east-1",
+            "subnet_id": "subnet-44444444444444444",
+          },
+          Object {
+            "account_id": "111111111111",
+            "arn": "arn:aws:ec2:us-east-1:111111111111:instance/i-66666666666666666",
+            "availability_zone": "us-east-1d",
+            "id": "i-66666666666666666",
+            "instance_state": "running",
+            "instance_type": "t2.micro",
+            "region": "us-east-1",
+            "subnet_id": "subnet-33333333333333333",
+          },
+        ],
+        "subnets": Array [
+          Object {
+            "account_id": "111111111111",
+            "arn": "arn:aws:ec2:us-east-1:111111111111:subnet/subnet-44444444444444444",
+            "availability_zone": "us-east-1c",
+            "cidr": "10.0.1.0/24",
+            "id": "subnet-44444444444444444",
+            "region": "us-east-1",
+            "vpc_id": "vpc-22222222222222222",
+          },
+          Object {
+            "account_id": "111111111111",
+            "arn": "arn:aws:ec2:us-east-1:111111111111:subnet/subnet-33333333333333333",
+            "availability_zone": "us-east-1d",
+            "cidr": "10.0.2.0/24",
+            "id": "subnet-33333333333333333",
+            "region": "us-east-1",
+            "vpc_id": "vpc-22222222222222222",
+          },
+          Object {
+            "account_id": "111111111111",
+            "arn": "arn:aws:ec2:us-east-1:111111111111:subnet/subnet-55555555555555555",
+            "availability_zone": "us-east-1e",
+            "cidr": "10.0.3.0/24",
+            "id": "subnet-55555555555555555",
+            "region": "us-east-1",
+            "vpc_id": "vpc-22222222222222222",
+          },
+        ],
+        "vpcs": Array [
+          Object {
+            "account_id": "111111111111",
+            "arn": "arn:aws:ec2:us-east-1:111111111111:vpc/vpc-222222222222222222",
+            "cidr": "10.0.0.0/16",
+            "id": "vpc-22222222222222222",
+            "region": "us-east-1",
+          },
+        ],
+      }
+    }
+    vpc={
+      Object {
+        "account_id": "111111111111",
+        "arn": "arn:aws:ec2:us-east-1:111111111111:vpc/vpc-222222222222222222",
+        "cidr": "10.0.0.0/16",
+        "id": "vpc-22222222222222222",
+        "region": "us-east-1",
+      }
+    }
+  />
+</Fragment>
+`;

@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu renders resource list for multiple resources 1`] = `
+Array [
+  <div
+    className="general-resources"
+    key="0"
+  >
+    <div
+      className="title"
+    >
+      Access Analyzers
+    </div>
+    <div
+      className="general-resources-group"
+      key="0"
+    >
+      <Resource
+        hideName={false}
+        hideStatus={false}
+        image="noImg.png"
+        key="0"
+        name="id"
+        updateResourceAttributes={[Function]}
+      />
+    </div>
+  </div>,
+  <div
+    className="general-resources"
+    key="1"
+  >
+    <div
+      className="title"
+    >
+      ACM
+    </div>
+    <div
+      className="general-resources-group"
+      key="0"
+    >
+      <Resource
+        hideName={false}
+        hideStatus={false}
+        image="crtm.png"
+        key="0"
+        name="domain_name"
+        updateResourceAttributes={[Function]}
+      />
+    </div>
+    <div
+      className="general-resources-group"
+      key="1"
+    >
+      <Resource
+        hideName={false}
+        hideStatus={false}
+        image="crta.png"
+        key="0"
+        name="arn"
+        state="status"
+        updateResourceAttributes={[Function]}
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`Menu renders resource list for single resource 1`] = `
+<div
+  className="general-resources"
+  key="0"
+>
+  <div
+    className="title"
+  >
+    AMIs
+  </div>
+  <div
+    className="general-resources-group"
+    key="0"
+  >
+    <Resource
+      hideName={false}
+      hideStatus={false}
+      image="ami.png"
+      key="0"
+      name="ami-000b3a073fc20e415"
+      updateResourceAttributes={[Function]}
+    />
+  </div>
+</div>
+`;

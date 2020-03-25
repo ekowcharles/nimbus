@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResourceStatus renders status or resource 1`] = `
+<Fragment>
+  <div
+    className="res-status-tooltip"
+  >
+    <div
+      className="res-status available"
+    />
+    <span
+      className="text"
+    >
+      available
+    </span>
+  </div>
+</Fragment>
+`;

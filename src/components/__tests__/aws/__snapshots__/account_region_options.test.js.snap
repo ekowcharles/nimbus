@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DB renders region account region options 1`] = `
+<div
+  className="region input-group"
+>
+  <span
+    className="option-title"
+  >
+    Account-Region Selection
+  </span>
+  <div
+    key="00"
+  >
+    <input
+      checked={true}
+      onClick={[Function]}
+      readOnly={true}
+      type="radio"
+    />
+     
+    111111111111
+    : 
+    us-east-1
+  </div>
+</div>
+`;

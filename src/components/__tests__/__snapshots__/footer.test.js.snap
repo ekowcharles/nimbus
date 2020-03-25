@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders footer with terms of service and privacy information 1`] = `
+<div
+  className="area-footer smaller"
+>
+  © Ovsprint LLC. · All rights reserved
+  <br />
+  <br />
+  <span
+    className="clickable smallest pointer"
+    onClick={[Function]}
+  >
+    Terms of Service
+  </span>
+    |  
+  <span
+    className="clickable smallest pointer"
+    onClick={[Function]}
+  >
+    Privacy Policy
+  </span>
+</div>
+`;

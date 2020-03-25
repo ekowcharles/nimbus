@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Resource renders resources 1`] = `
+<div
+  className="res-container clickable"
+  onClick={[Function]}
+>
+  <ResourceStatus
+    hide={false}
+    state="available"
+  />
+  <img
+    alt="resource"
+    className="res-container-icon"
+    src="db.png"
+  />
+  <span>
+    ...000001
+  </span>
+</div>
+`;

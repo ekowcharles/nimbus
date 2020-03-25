@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Instance renders Instances 1`] = `
+<Resource
+  hideStatus={false}
+  image="t2.png"
+  name="...a37fed"
+  state="running"
+  updateResourceAttributes={[Function]}
+/>
+`;

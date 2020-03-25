@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResourceAttributes renders vpc or subnet description 1`] = `
+<div
+  className="attributes"
+>
+  <div
+    className="details-dropdown"
+    onClick={[Function]}
+  >
+    <div
+      className="arrow right"
+    />
+  </div>
+  <div
+    className="details"
+  >
+    <div
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<ul><li>foo:  <strong>bar</strong></li></ul><ul><li>list</li><ul><ul><li>0:  <strong>o</strong></li></ul><ul><li>1:  <strong>n</strong></li></ul><ul><li>2:  <strong>e</strong></li></ul></ul><ul><ul><li>0:  <strong>t</strong></li></ul><ul><li>1:  <strong>w</strong></li></ul><ul><li>2:  <strong>o</strong></li></ul></ul></ul><ul><li>not:  <strong>undefined</strong></li></ul>",
+        }
+      }
+    />
+  </div>
+</div>
+`;

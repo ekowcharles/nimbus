@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NetworkResourceDescription renders vpc or subnet description 1`] = `
+<div
+  className="res-desc desc no-res-icon"
+>
+  subnet-44444444444444444 | 10.0.1.0/24
+</div>
+`;

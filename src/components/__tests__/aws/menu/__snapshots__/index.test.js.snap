@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu renders menu 1`] = `
+<div
+  className="menu"
+>
+  <ul>
+    <li
+      className="dropdown"
+    >
+      <span
+        className="dropbtn"
+      >
+        VPC
+      </span>
+      <div
+        className="dropdown-content"
+      >
+        <MenuItem
+          checked={false}
+          label="Hide Icon"
+          update={[Function]}
+        />
+        <MenuItem
+          checked={false}
+          label="Hide Id"
+          update={[Function]}
+        />
+        <MenuItem
+          checked={false}
+          label="Hide Cidr"
+          update={[Function]}
+        />
+        <MenuItem
+          checked={false}
+          label="Hide Status"
+          update={[Function]}
+        />
+      </div>
+    </li>
+    <li
+      className="dropdown"
+    >
+      <span
+        className="dropbtn"
+      >
+        Subnet
+      </span>
+      <div
+        className="dropdown-content"
+      >
+        <MenuItem
+          checked={false}
+          label="Hide Id"
+          update={[Function]}
+        />
+        <MenuItem
+          checked={false}
+          label="Hide Cidr"
+          update={[Function]}
+        />
+        <MenuItem
+          checked={false}
+          label="Hide Status"
+          update={[Function]}
+        />
+      </div>
+    </li>
+    <li
+      className="dropdown"
+    >
+      <span
+        className="dropbtn"
+      >
+        AZ
+      </span>
+      <div
+        className="dropdown-content"
+      >
+        <MenuItem
+          checked={false}
+          label="Hide Name"
+          update={[Function]}
+        />
+      </div>
+    </li>
+    <li
+      className="dropdown"
+    >
+      <span
+        className="dropbtn"
+      >
+        Instance
+      </span>
+      <div
+        className="dropdown-content"
+      >
+        <MenuItem
+          checked={false}
+          label="Hide"
+          update={[Function]}
+        />
+        <MenuItem
+          checked={false}
+          label="Hide Status"
+          update={[Function]}
+        />
+        <MenuItem
+          checked={false}
+          label="Hide Type"
+          update={[Function]}
+        />
+      </div>
+    </li>
+    <li
+      className="dropdown"
+    >
+      <span
+        className="dropbtn"
+      >
+        Database
+      </span>
+      <div
+        className="dropdown-content"
+      >
+        <MenuItem
+          checked={false}
+          label="Hide"
+          update={[Function]}
+        />
+        <MenuItem
+          checked={false}
+          label="Hide Name"
+          update={[Function]}
+        />
+        <MenuItem
+          checked={false}
+          label="Hide Status"
+          update={[Function]}
+        />
+      </div>
+    </li>
+    <li
+      className="dropdown"
+    >
+      <span
+        className="dropbtn"
+      >
+        Bucket
+      </span>
+      <div
+        className="dropdown-content"
+      >
+        <MenuItem
+          checked={false}
+          label="Hide"
+          update={[Function]}
+        />
+        <MenuItem
+          checked={false}
+          label="Hide Name"
+          update={[Function]}
+        />
+      </div>
+    </li>
+  </ul>
+</div>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Bucket renders databases 1`] = `
+<Resource
+  hideName={false}
+  hideStatus={false}
+  image="bucket.png"
+  name="nimbusmain"
+  updateResourceAttributes={[Function]}
+/>
+`;
