@@ -6,6 +6,10 @@ cache:
     - node_modules
 script:
   - make test
-  - make all
+deploy:
+  provider: netlify
+  site: <site>
+  auth: <encrypted auth>
+  edge: true
 on:
   branch: master
