@@ -8,8 +8,7 @@ script:
   - make test
 deploy:
   provider: netlify
-  site: <site>
-  auth: <encrypted auth>
+  site: nimbus42
   edge: true
 on:
   branch: master
