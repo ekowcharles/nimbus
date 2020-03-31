@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "stable"
+  - stable
 cache:
   directories:
     - node_modules
@@ -8,7 +8,8 @@ script:
   - make test
 deploy:
   provider: netlify
-  site: nimbus42
   edge: true
-on:
+  prod: true
+  dir: "dist/"
+true:
   branch: master
