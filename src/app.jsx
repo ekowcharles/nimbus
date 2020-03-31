@@ -8,6 +8,7 @@ import TermsOfService from './components/terms/terms_of_service'
 import PrivacyPolicy from './components/terms/privacy_policy'
 import Header from './components/header';
 import Aws from './components/aws/index';
+import Footer from './components/footer';
 
 import CookieMessage from './components/cookies';
 import { withCookies } from 'react-cookie';
@@ -248,8 +249,9 @@ class App extends Component {
             <Route render={() => <NotFound />} />
           </Switch>
         </div>
+        <Footer loadPage={this.loadPage} />
         {cookieComponent}
-      </React.Fragment>
+      </React.Fragment >
     );
   }
 }

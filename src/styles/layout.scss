@@ -7,4 +7,17 @@
   padding: 0.68rem 0.31rem;
   bottom: 0px;
   z-index: 4000;
+  position: fixed;
+
+  a {
+    text-decoration: none;
+
+    &:visited {
+      color: $defaultDeepColor;
+    }
+
+    &:active {
+      color: $defaultDeepColor;
+    }
+  }
 }

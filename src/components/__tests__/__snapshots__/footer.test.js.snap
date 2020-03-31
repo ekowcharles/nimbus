@@ -4,21 +4,11 @@ exports[`Footer renders footer with terms of service and privacy information 1`]
 <div
   className="area-footer smaller"
 >
-  © Ovsprint LLC. · All rights reserved
-  <br />
-  <br />
-  <span
-    className="clickable smallest pointer"
-    onClick={[Function]}
+  <a
+    href="https://github.com/ekowcharles/nimbus"
+    target="_blank"
   >
-    Terms of Service
-  </span>
-    |  
-  <span
-    className="clickable smallest pointer"
-    onClick={[Function]}
-  >
-    Privacy Policy
-  </span>
+    View Source
+  </a>
 </div>
 `;

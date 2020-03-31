@@ -1,24 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = props => {
   return (
     <div className="area-footer smaller">
-      &copy; Ovsprint LLC. &middot; All rights reserved
-      <br />
-      <br />
-      <span
-        className="clickable smallest pointer"
-        onClick={() => props.loadPage('/terms-of-service')}
-      >
-        Terms of Service
-      </span>
-      &nbsp;&nbsp;|&nbsp;&nbsp;
-      <span
-        className="clickable smallest pointer"
-        onClick={() => props.loadPage('/privacy-policy')}
-      >
-        Privacy Policy
-      </span>
+      <a href="https://github.com/ekowcharles/nimbus" target="_blank">View Source</a>
     </div>
   );
 };
