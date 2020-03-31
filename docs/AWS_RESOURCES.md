@@ -1,11 +1,5 @@
 # AWS Resources
 
-## Completed
-
-1. [resource_aws_accessanalyzer_analyzer](https://github.com/terraform-providers/terraform-provider-aws/tree/v2.49.0/aws/resource_aws_accessanalyzer_analyzer.go)
-1. [resource_aws_acm_certificate](https://github.com/terraform-providers/terraform-provider-aws/tree/v2.49.0/aws/resource_aws_acm_certificate.go)
-1. [resource_aws_acm_certificate_authority](https://github.com/terraform-providers/terraform-provider-aws/tree/v2.49.0/aws/resource_aws_acm_certificate_authority.go)
-
 ## To Be Started
 
 1. [resource_aws_ami](https://github.com/terraform-providers/terraform-provider-aws/tree/v2.49.0/aws/resource_aws_ami.go)
