@@ -8,13 +8,13 @@
 
 ### Terraform State Input Demo
 
-![Terraform State Demo](./docs/images/terraform_state_demo.gif)
+<kbd>![Terraform State Demo](./docs/images/terraform_state_demo.gif)</kbd>
 
 Find sample input [here](./sample-input/aws_tfstate.json).
 
 ### Nimbus Schema Input Demo
 
-![Nimbus Schema Demo](./docs/images/nimbus_schema_demo.gif)
+<kbd>![Nimbus Schema Demo](./docs/images/nimbus_schema_demo.gif)</kbd>
 
 Find sample input [here](./sample-input/nimbus_schema.json).
 
