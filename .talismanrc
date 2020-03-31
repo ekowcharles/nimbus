@@ -6,6 +6,6 @@ fileignoreconfig:
   checksum: e96e39850d0e5ea6a3be197c64b07b8a3bc207b5c2ed7a66a01b41c9bab2084f
   ignore_detectors: []
 - filename: package-lock.json
-  checksum: 3d12beb58d64f882c42645c36ddfe618105ef915cb3fd3dbd57d4c8c2d599554
+  checksum: 7879dd9803acf31baab3f65fa8b128798ea6bf5329615ecbed46bb8256caa7fd
   ignore_detectors: []
 scopeconfig: []

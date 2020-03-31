@@ -1,6 +1,6 @@
 [build]
   base = "/"
-  command = "make build"
+  command = "make all"
   publish = "dist/"
 
 [[redirects]]
