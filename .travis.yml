@@ -6,5 +6,6 @@ cache:
     - node_modules
 script:
   - make test
-true:
-  branch: master
+branches:
+  only:
+    - master
