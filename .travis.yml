@@ -6,10 +6,5 @@ cache:
     - node_modules
 script:
   - make test
-deploy:
-  provider: netlify
-  edge: true
-  prod: true
-  dir: "dist/"
 true:
   branch: master
